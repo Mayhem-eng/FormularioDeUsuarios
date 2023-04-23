@@ -16,7 +16,7 @@ public class Conexao {
         Connection conexao = null;
         String url = "jdbc:mysql://localhost:3306/bancousuarios?characterEncoding=utf-8";
         String user = "root";
-        String senha = "";
+        String senha = "root";
         
         try{
             Class.forName("com.mysql.jdbc.Driver");
